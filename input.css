@@ -1,0 +1,9 @@
+.container {
+    height: 25px;
+    text-overflow: ellipsis;
+    border-radius: 10px;
+    border-color: #C6A48C;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 15pt;
+}
