@@ -13,8 +13,23 @@ label {
 
 form {
     padding: 10px;
+    text-align: center;
 }
 
 p {
     margin-bottom: 10px;
+}
+
+button {
+    background: #D0B39F;
+    border: #DBCFA9;
+    height: 40px;
+    width: 130px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #A97653;
+    color: white;
 }

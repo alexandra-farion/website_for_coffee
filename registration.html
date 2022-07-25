@@ -3,29 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>New User Registration</title>
-    <script src="screen_size.js"></script>
     <link rel="stylesheet" type="text/css" href="input.css">
     <link rel="stylesheet" type="text/css" href="divs.css">
     <link rel="stylesheet" type="text/css" href="tags.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
 <header>
     <h1 class="welcome">Welcome to the world of coffee</h1>
 </header>
-<div class="main">
+<main>
     <h2>Registration</h2>
     <div></div>
     <div>
         <form>
-            <p><label for="surname">Surname <input type="text" class="container" id="surname"></label></p>
-            <p><label for="name">Name <input type="text" class="container" id="name"></label></p>
-            <p><label for="patronymic">Patronymic <input type="text" class="container" id="patronymic"></label></p>
+            <p><label for="surname">Surname <input type="text" class="container" id="surname" placeholder="Jobs"></label></p>
+            <p><label for="name">Name <input type="text" class="container" id="name" placeholder="John"></label></p>
+            <p><label for="patronymic">Patronymic <input type="text" class="container" id="patronymic" placeholder="Sergeevich"></label></p>
             <p>Gender: <label>Female <input type="radio" name="gender" id="female"></label> <label>Male <input type="radio" name="gender" id="male"></label></p>
+            <p>Age <label><input type="number" id="age" placeholder="27"></label></p>
+            <p>Phone number <label><input type="tel" id="phone" placeholder="+7 (___)_______"></label></p>
+            <p>Mail <label><input type="email" id="mail" placeholder="email@yandex.ru/gmail.com"></label></p>
         </form>
-        <div></div>
+        <div class="btn"><button>Registration</button></div>
         <div></div>
     </div>
-</div>
+</main>
 <footer>
 </footer>
 </body>
